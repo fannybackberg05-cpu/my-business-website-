@@ -3,7 +3,7 @@
   --text-color: #333333;
 }
 
-/* Mörkt läge */
+
 .dark-background {
   --bg-color: #1a1a1a;
   --text-color: #f0f0f0;
@@ -12,5 +12,41 @@
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
-  transition: background-color 0.3s, color 0.3s; /* Mjuk övergång */
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+.form {
+   max-width: 500px;
+    margin: 40px;
+    padding: 30px;
+    background-color:white;
+    color:black;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.card {
+    max-width: 500px;
+    margin: 40px;
+    padding: 30px;
+    background-color:white;
+    color:black;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#back-btn {
+text-wrap: wrap;
 }
