@@ -36,7 +36,7 @@ if (form) {
 
         card.innerHTML = `
             <div class="card-content">
-                <h2>Välkommen${form.name}</h2>
+                <h2>Välkommen ${form.name}</h2>
                 <p>Är detta din email? ${form.email}</p>
                 <p>Tack för ditt meddelande: ${form.message}</p>
             </div>
